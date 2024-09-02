@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        @keyframes simas{
+            33%{
+                background-color: aqua;
+                font-size: 80px;
+            }
+            66%{
+                background-color: blueviolet;
+                font-size: 150px;
+            }
+            99%{
+                background-color: cornflowerblue;
+                font-size: 12px;
+            }
+            100%{
+                background-color: black;
+            }
+        }
+        
+        @keyframes turbo{
+            100%{
+                transform: translateX(500px);
+            }
+        }
+
+        @keyframes girar{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg) scale(3.5);
+            }
+        }
+
+        .key1{
+            animation: simas 12s infinite alternate;
+        }
+
+        .key2{
+            animation: turbo 3.5s infinite;
+        }
+
+        .key3{
+            animation: girar 8s infinite linear;
+        }
+    </style>
+
+    <div class="key1">
+        <p>paragrafo</p>
+    </div>
+    <div class="key2">
+        <p>
+            A Lagarta e Alice olharam-se por algum tempo em silêncio: finalmente, a
+            Lagarta tirou o narguilé da boca e dirigiu-se a ela com uma voz lânguida e
+            sonolenta.
+          </p>
+    </div>
+    <div class="key3">
+        <img src="https://th.bing.com/th/id/OIP.GiLidV-50HmjoLaAUA5IVQHaE7?rs=1&pid=ImgDetMain" alt="">
+    </div>
+</body>
+
+</html>
